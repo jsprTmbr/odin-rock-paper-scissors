@@ -1,0 +1,42 @@
+body{
+    background-color: black;
+    font-family: "Orbitron", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1rem;
+    color: white;
+}
+.centered{
+    border: 2px solid red;
+    border-radius: 40px;
+    padding: 100px 20px;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 200px;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+
+}
+
+#buttons{
+    margin-bottom: 20px;
+}
+button{
+    font-family: "Orbitron", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: bold;
+    width: 80px;
+    height: 40px;
+    background-color: darkred;
+    color: white;
+    border: 1px solid red;
+    border-radius: 5px;
+}
